@@ -1,8 +1,5 @@
 
-<template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello World Geldstroom" />
-</template>
+
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
@@ -14,6 +11,13 @@ export default {
   },
 };
 </script>
+
+// component hello world
+
+<template>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld msg="Hello World Geldstroom Vue App" />
+</template>
 
 <style>
 #app {
